@@ -1,0 +1,58 @@
+html {
+    background-color: #111;
+    height: 100%;
+}
+
+#banner{
+	background-image:url('http://www.hd-freewallpapers.com/latest-wallpapers/abstract-website-backgrounds.jpg');
+	text-align: center;
+    color: #fff;
+   
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+     overflow-x: hidden;
+}
+
+h1{
+	text-align: center;
+	color: #781500;
+}
+
+#encabezado{
+
+	background-color: orange;
+	border-radius: 4px;
+	
+}
+
+#menu ul{ 
+	width: 100%;
+	margin: 0;
+	background: #781500;
+    list-style-type: none;
+   	text-align: center;
+}
+
+#menu ul li{
+	display: inline-block;
+}
+
+#menu li a {
+	
+   padding: 8px 80px 8px 80px;
+   color: white;
+   background-color: #9C280F;
+   text-decoration: none;
+   text-align: center;
+}
+
+
+#menu li a:hover{    /*cuando pasamos el click sobre el enlace*/
+   background-color: #333333;
+   color: #ffffff;
+}
