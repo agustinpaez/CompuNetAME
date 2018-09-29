@@ -1,3 +1,5 @@
+
+
 #body{
 	background-size: cover;
 	background-color: #778899; 
@@ -47,6 +49,7 @@ background-size: cover;
    text-align: center;
 }
 
+<<<<<<< HEAD
 
 #login-dp{
     min-width: 250px;
@@ -135,3 +138,60 @@ background-size: cover;
 		background: red; /* Cambiamos el fondo cuando el usuario pase el mouse */
 		padding: 15px 60px; /* Hacemos mas grande el espacio cuando el usuario pase el mouse */
 	}
+=======
+#kekotext{
+  font-family: FontAwesome;
+    content: '\f104';
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 0;
+    padding: 2px;
+    font-size: 19px;
+    line-height: 27px;
+}
+#pelaotext{
+  font-family: FontAwesome;
+    content: '\f104';
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 0;
+    padding: 2px;
+    font-size: 19px;
+    line-height: 27px;
+}
+#paeztext{
+  font-family: FontAwesome;
+    content: '\f104';
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 0;
+    padding: 2px;
+    font-size: 19px;
+    line-height: 27px;
+}
+
+
+#fun{
+  font-family: FontAwesome;
+}
+
+#imgpers{
+  justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+#tit{
+  font-family: FontAwesome;
+  font-size: 150px;
+}
+>>>>>>> c38e3d46180b9833ece178efa9b7f4d0bd73b2cd
