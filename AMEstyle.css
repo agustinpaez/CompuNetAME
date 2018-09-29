@@ -1,6 +1,4 @@
-
-
-#body{
+#bodyy{
 	background-size: cover;
 	background-color: #778899; 
 	background-image: url(r9.jpg);
@@ -49,58 +47,6 @@ background-size: cover;
    text-align: center;
 }
 
-<<<<<<< HEAD
-
-#login-dp{
-    min-width: 250px;
-    padding: 14px 14px 0;
-    overflow:hidden;
-    background-color:rgba(255,255,255,.8);
-}
-#login-dp .help-block{
-    font-size:12px    
-}
-#login-dp .bottom{
-    background-color:rgba(255,255,255,.8);
-    border-top:1px solid #ddd;
-    clear:both;
-    padding:14px;
-}
-#login-dp .social-buttons{
-    margin:12px 0    
-}
-#login-dp .social-buttons a{
-    width: 49%;
-}
-#login-dp .form-group {
-    margin-bottom: 10px;
-}
-.btn-fb{
-    color: #fff;
-    background-color:#3b5998;
-}
-.btn-fb:hover{
-    color: #fff;
-    background-color:#496ebc 
-}
-.btn-tw{
-    color: #fff;
-    background-color:#55acee;
-}
-.btn-tw:hover{
-    color: #fff;
-    background-color:#59b5fa;
-}
-@media(max-width:768px){
-    #login-dp{
-        background-color: inherit;
-        color: #fff;
-    }
-    #login-dp .bottom{
-        background-color: inherit;
-        border-top:0 none;
-    }
-}
 
 
 
@@ -110,7 +56,7 @@ background-size: cover;
 	position: fixed; /* Hacemos que la posición en pantalla sea fija para que siempre se muestre en pantalla*/
 	left: 0; /* Establecemos la barra en la izquierda */
 	
-		bottom: 50px; /* Bajamos la barra 200px de arriba a abajo */
+	bottom: 50px; /* Bajamos la barra 200px de arriba a abajo */
 	z-index: 2000; /* Utilizamos la propiedad z-index para que no se superponga algún otro elemento como sliders, galerías, etc */
 }
 
@@ -195,4 +141,63 @@ background-size: cover;
   font-family: FontAwesome;
   font-size: 150px;
 }
->>>>>>> c38e3d46180b9833ece178efa9b7f4d0bd73b2cd
+
+>>>>>>> COMIENZA MENU PARA INICIAR SESION
+
+body{
+    
+    padding:50px;
+}
+
+#login-dp{
+    min-width: 250px;
+    padding: 14px 14px 0;
+    overflow:hidden;
+    background-color:rgba(255,255,255,.8);
+}
+#login-dp .help-block{
+    font-size:12px    
+}
+#login-dp .bottom{
+    background-color:rgba(255,255,255,.8);
+    border-top:1px solid #ddd;
+    clear:both;
+    padding:14px;
+}
+#login-dp .social-buttons{
+    margin:12px 0    
+}
+#login-dp .social-buttons a{
+    width: 49%;
+}
+#login-dp .form-group {
+    margin-bottom: 10px;
+}
+.btn-fb{
+    color: #fff;
+    background-color:#3b5998;
+}
+.btn-fb:hover{
+    color: #fff;
+    background-color:#496ebc 
+}
+.btn-tw{
+    color: #fff;
+    background-color:#55acee;
+}
+.btn-tw:hover{
+    color: #fff;
+    background-color:#59b5fa;
+}
+@media(max-width:768px){
+    #login-dp{
+        background-color: inherit;
+        color: #fff;
+    }
+    #login-dp .bottom{
+        background-color: inherit;
+        border-top:0 none;
+    }
+}
+
+>>>>>>>>>>>>>>>> TERMINA MENU PARA INICIAR SESION 
