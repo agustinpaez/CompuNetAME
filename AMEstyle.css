@@ -85,44 +85,44 @@ background-size: cover;
 		background: red; /* Cambiamos el fondo cuando el usuario pase el mouse */
 		padding: 15px 60px; /* Hacemos mas grande el espacio cuando el usuario pase el mouse */
 	}
-=======
+
 #kekotext{
   font-family: FontAwesome;
     content: '\f104';
-    font-size: 25px;
+    font-size: 50px;
     display: flex;
     justify-content: center;
     align-items: center;
     position: relative;
     top: 0;
     padding: 2px;
-    font-size: 19px;
+    
     line-height: 27px;
 }
 #pelaotext{
   font-family: FontAwesome;
     content: '\f104';
-    font-size: 25px;
+    font-size: 50px;
     display: flex;
     justify-content: center;
     align-items: center;
     position: relative;
     top: 0;
     padding: 2px;
-    font-size: 19px;
+    
     line-height: 27px;
 }
 #paeztext{
   font-family: FontAwesome;
     content: '\f104';
-    font-size: 25px;
+    font-size: 50px;
     display: flex;
     justify-content: center;
     align-items: center;
     position: relative;
     top: 0;
     padding: 2px;
-    font-size: 19px;
+    
     line-height: 27px;
 }
 
@@ -142,7 +142,7 @@ background-size: cover;
   font-size: 150px;
 }
 
->>>>>>> COMIENZA MENU PARA INICIAR SESION
+
 
 
 #login-dp{
@@ -196,4 +196,3 @@ background-size: cover;
     }
 }
 
->>>>>>>>>>>>>>>> TERMINA MENU PARA INICIAR SESION 
