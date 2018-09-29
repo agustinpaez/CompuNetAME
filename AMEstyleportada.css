@@ -9,8 +9,7 @@ body{
 
 a {
     position:absolute;
-    top:17%;
-    right: 0%;
+    margin-top: 30%;
     transform:translate(-50%,-50%);
     width:250px;
     height:80px;
@@ -49,34 +48,16 @@ a:hover span:nth-child(2) {
     color:white;
 }
 
-#logo {
-  font-family:Audiowide;
-  font-size:50px;
-  color: white;
-  margin:50px;
-  -webkit-transition: all 1s ease-in-out;
-  -moz-transition: all 1s ease-in-out;
-  -o-transition: all 1s ease-in-out;
-  -ms-transition: all 1s ease-in-out;
-  transition: all 1s ease-in-out;
-  text-shadow: 
-  1px 1px 0 #A9A9A9,
-  13px 3px 0 #A9A9A9,
-  5px 5px 0 #A9A9A9,
-  17px 7px 0 #A9A9A9,
-  9px -15px 0 #A9A9A9,
-  -11px 11px 0 #A9A9A9,
-  7px -13px 0 #A9A9A9,
-  15px 30px 0 #A9A9A9,
-  -20px 17px 0 #A9A9A9,
-  -19px 19px 0 #A9A9A9,
-  30px -21px 0 #A9A9A9,
-  23px 23px 0 #A9A9A9,
-  -25px 40px 0 #A9A9A9,
-  27px 27px 0 #A9A9A9,
-  -29px 29px 0 #A9A9A9;
-}
 
+
+#logo{    
+    width: 100 &#37; 
+    height: 100 %;
+    top:0;
+    left:0;
+    position:fixed;
+    z-index: -1;   
+}
 
 >>>>>>> COMIENZA MENU PARA INICIAR SESION
 
