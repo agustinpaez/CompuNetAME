@@ -1,4 +1,4 @@
-#bodyy{
+body{
 	background-size: cover;
 	background-color: #778899; 
 	background-image: url(r9.jpg);
@@ -144,10 +144,6 @@ background-size: cover;
 
 >>>>>>> COMIENZA MENU PARA INICIAR SESION
 
-body{
-    
-    padding:50px;
-}
 
 #login-dp{
     min-width: 250px;
