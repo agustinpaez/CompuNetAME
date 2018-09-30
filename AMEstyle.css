@@ -1,7 +1,11 @@
-body{
+
+
+#bodyy{
 	background-size: cover;
 	background-color: #778899; 
-	background-image: url(r9.jpg);
+	background-image: url(r9.jpg) ;
+ 
+  overflow-x: hidden;
 	/* Para dejar la imagen de fondo centrada, vertical y
 
 horizontalmente */
@@ -21,13 +25,16 @@ background-attachment: fixed;
 background-size: cover;
 }
 
+
+
+
 #posicion{
 	top:25px;
 }
 
 #logo {
   font-family:Audiowide;
-  font-size:30px;
+  font-size:25px;
   color: white;
   margin:10px;
   -webkit-transition: all 1s ease-in-out;
@@ -47,103 +54,7 @@ background-size: cover;
    text-align: center;
 }
 
-
-
-
-
-
-.social {
-	position: fixed; /* Hacemos que la posición en pantalla sea fija para que siempre se muestre en pantalla*/
-	left: 0; /* Establecemos la barra en la izquierda */
-	
-	bottom: 50px; /* Bajamos la barra 200px de arriba a abajo */
-	z-index: 2000; /* Utilizamos la propiedad z-index para que no se superponga algún otro elemento como sliders, galerías, etc */
-}
-
-	.social ul {
-		list-style: none;
-	}
-
-	.social ul li a {
-		display: inline-block;
-		color:#fff;
-		background: #000;
-		padding: 10px 15px;
-		text-decoration: none;
-		-webkit-transition:all 500ms ease;
-		-o-transition:all 500ms ease;
-		transition:all 500ms ease; /* Establecemos una transición a todas las propiedades */
-	}
-
-	.social ul li .icon-facebook {background:#3b5998;} /* Establecemos los colores de cada red social, aprovechando su class */
-	.social ul li .icon-twitter {background: #00abf0;}
-	.social ul li .icon-googleplus {background: #d95232;}
-	.social ul li .icon-pinterest {background: #ae181f;}
-	.social ul li .icon-mail {background: #666666;}
-
-	.social ul li a:hover {
-		background: red; /* Cambiamos el fondo cuando el usuario pase el mouse */
-		padding: 15px 60px; /* Hacemos mas grande el espacio cuando el usuario pase el mouse */
-	}
-
-#kekotext{
-  font-family: FontAwesome;
-    content: '\f104';
-    font-size: 50px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: relative;
-    top: 0;
-    padding: 2px;
-    
-    line-height: 27px;
-}
-#pelaotext{
-  font-family: FontAwesome;
-    content: '\f104';
-    font-size: 50px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: relative;
-    top: 0;
-    padding: 2px;
-    
-    line-height: 27px;
-}
-#paeztext{
-  font-family: FontAwesome;
-    content: '\f104';
-    font-size: 50px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: relative;
-    top: 0;
-    padding: 2px;
-    
-    line-height: 27px;
-}
-
-
-#fun{
-  font-family: FontAwesome;
-}
-
-#imgpers{
-  justify-content: center;
-    align-items: center;
-    position: relative;
-}
-
-#tit{
-  font-family: FontAwesome;
-  font-size: 150px;
-}
-
-
-
+/*HEAD*/
 
 #login-dp{
     min-width: 250px;
@@ -199,12 +110,114 @@ background-size: cover;
 
 
 
-#imagen:hover{
-transition:all .6s ease-in-out;
-border-radius:100%;
--webkit-border-radius:50%;
-box-shadow: 0px 0px 15px 15px #ec731e;
--webkit-box-shadow: 0px 0px 15px 15px #ec731e;
-transform: rotate(360deg);
--webkit-transform: rotate(360deg);
+
+.social {
+	position: fixed; /* Hacemos que la posición en pantalla sea fija para que siempre se muestre en pantalla*/
+	left: 0; /* Establecemos la barra en la izquierda */
+	
+		bottom: 50px; /* Bajamos la barra 200px de arriba a abajo */
+	z-index: 2000; /* Utilizamos la propiedad z-index para que no se superponga algún otro elemento como sliders, galerías, etc */
+}
+
+	.social ul {
+		list-style: none;
+	}
+
+	.social ul li a {
+		display: inline-block;
+		color:#fff;
+		background: #000;
+		padding: 10px 15px;
+		text-decoration: none;
+		-webkit-transition:all 500ms ease;
+		-o-transition:all 500ms ease;
+		transition:all 500ms ease; /* Establecemos una transición a todas las propiedades */
+	}
+
+	.social ul li .icon-facebook {background:#3b5998;} /* Establecemos los colores de cada red social, aprovechando su class */
+	.social ul li .icon-twitter {background: #00abf0;}
+	.social ul li .icon-googleplus {background: #d95232;}
+	.social ul li .icon-pinterest {background: #ae181f;}
+	.social ul li .icon-mail {background: #666666;}
+
+	.social ul li a:hover {
+		background: red; /* Cambiamos el fondo cuando el usuario pase el mouse */
+		padding: 15px 60px; /* Hacemos mas grande el espacio cuando el usuario pase el mouse */
+	}
+
+#kekotext{
+  font-family: FontAwesome;
+    content: '\f104';
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 0;
+    padding: 2px;
+    font-size: 19px;
+    line-height: 27px;
+}
+#pelaotext{
+  font-family: FontAwesome;
+    content: '\f104';
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 0;
+    padding: 2px;
+    font-size: 19px;
+    line-height: 27px;
+}
+#paeztext{
+  font-family: FontAwesome;
+    content: '\f104';
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 0;
+    padding: 2px;
+    font-size: 19px;
+    line-height: 27px;
+}
+
+
+#fun{
+  font-family: FontAwesome;
+}
+
+#imgpers{
+  justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+#tit{
+  font-family: FontAwesome;
+  font-size: 150px;
+}
+
+div.gallery {
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 180px;
+}
+
+div.gallery:hover {
+    border: 1px solid #777;
+}
+
+div.gallery img {
+    width: 100%;
+    height: auto;
+}
+
+div.desc {
+    padding: 15px;
+    text-align: center;
 }
