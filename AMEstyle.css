@@ -42,6 +42,11 @@ background-size: cover;
   -o-transition: all 1s ease-in-out;
   -ms-transition: all 1s ease-in-out;
   transition: all 1s ease-in-out;
+    font-weight: 700px; 
+    color: red;
+    text-shadow: 3px 3px 5px #f00,
+                 6px 6px 5px #0f0,
+                 9px 9px 5px #00f;
 }
 
 .footer {
@@ -146,59 +151,85 @@ background-size: cover;
 	}
 
 #kekotext{
-  font-family: FontAwesome;
+   font-family: FontAwesome;
     content: '\f104';
-    font-size: 25px;
+    font-size: 40px;
     display: flex;
     justify-content: center;
     align-items: center;
-    position: relative;
+    color: gray;
     top: 0;
     padding: 2px;
     font-size: 19px;
     line-height: 27px;
+    color: #A39393;
 }
 #pelaotext{
   font-family: FontAwesome;
     content: '\f104';
-    font-size: 25px;
+    font-size: 40px;
     display: flex;
     justify-content: center;
     align-items: center;
-    position: relative;
+    color: gray;
     top: 0;
     padding: 2px;
     font-size: 19px;
     line-height: 27px;
+    color: #A39393;
 }
 #paeztext{
-  font-family: FontAwesome;
+    font-family: FontAwesome;
     content: '\f104';
-    font-size: 25px;
+    font-size: 40px;
     display: flex;
     justify-content: center;
     align-items: center;
-    position: relative;
+    color: gray;
     top: 0;
     padding: 2px;
     font-size: 19px;
     line-height: 27px;
+    color: #A39393;
 }
 
 
 #fun{
   font-family: FontAwesome;
+  font-size: 50px;
+  color: yellow;
+  text-shadow: 3px 3px 5px #f00,
+                 6px 6px 5px #0f0,
+                 9px 9px 5px #00f;
 }
 
 #imgpers{
   justify-content: center;
     align-items: center;
     position: relative;
+
 }
 
 #tit{
   font-family: FontAwesome;
   font-size: 150px;
+  color: red;
+
+
+  
+  font-weight: 700px; 
+    color: red;
+    text-shadow: 3px 3px 5px #f00,
+                 6px 6px 5px #0f0,
+                 9px 9px 5px #00f;
+}
+
+p{
+
+  color: yellow;
+  text-shadow: 3px 3px 5px #f00,
+                 6px 6px 5px #0f0,
+                 9px 9px 5px #00f;
 }
 
 div.gallery {

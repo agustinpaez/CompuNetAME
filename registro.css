@@ -1,0 +1,106 @@
+body, html{
+   
+ 	background-repeat: no-repeat;
+ 	background-color: #d3d3d3;
+ 	font-family: 'Oxygen', sans-serif;
+    background-image: url(fondo.jpg);
+
+}
+
+.main{
+ 	margin-top: 1px;
+
+}
+
+h1.title { 
+	font-size: 50px;
+	
+	font-weight: 700px; 
+    color: red;
+    text-shadow: 3px 3px 5px #f00,
+                 6px 6px 5px #0f0,
+                 9px 9px 5px #00f;    
+                 
+
+}
+
+hr{
+	width: 80%;
+	color: black;
+    border-color: red;
+
+}
+
+.form-group{
+	margin-bottom: 20px;
+
+
+
+}
+
+
+
+
+
+label{
+	margin-bottom: 15px;
+    color: #D62929
+
+}
+
+input,
+input::-webkit-input-placeholder {
+    font-size: 11px;
+    padding-top: 50px;
+
+}
+
+.main-login{
+ 	background-color: #fff;
+    /* shadows and rounded borders */
+    -moz-border-radius: 2px;
+    -webkit-border-radius: 2px;
+    border-radius: 2px;
+    -moz-box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+    -webkit-box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+
+
+
+}
+
+
+.main-center{
+ 	margin-top: 50px;
+ 	margin: 0 auto;
+ 	max-width: 500px;
+    padding: 30px 40px;
+    background-image: url(fondo.jpg);
+
+   
+    border-width: 5px;
+    border-color: #D62929;
+    box-shadow: 5px 20px 100px red;
+    border-radius: 50px;
+
+
+
+}
+
+
+input:hover{
+    background-color: #FBBDBD;
+    color: red;
+}
+
+
+.login-button{
+	margin-top: 5px;
+
+}
+
+.login-register{
+	font-size: 11px;
+	text-align: center;
+
+}
