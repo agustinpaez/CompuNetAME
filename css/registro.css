@@ -3,7 +3,7 @@ body, html{
  	background-repeat: no-repeat;
  	background-color: #d3d3d3;
  	font-family: 'Oxygen', sans-serif;
-    background-image: url(fondo.jpg);
+    background-image: url(../img/fondo.jpg);
 
 }
 
